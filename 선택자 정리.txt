@@ -1,0 +1,34 @@
+CSS(Cascading Style Sheet)
+
+*외부 스타일
+<link rel="stylesheet" type="text/css" href="스타일파일.css">
+
+*내부 스타일
+<style type="text/css>
+선택자 { 스타일 속성 : 속성 값; ... }
+</style>
+
+*인라인 스타일
+<태그 type="스타일 속성 : 속성 값; ...">내용</태그>
+
+선택자
+- 전체 선택자 : *
+- Type 선택자 : 태그명
+- Class 선택자 : .class명
+- ID 선택자 : #id명
+- 하위 선택자 : 공백
+- 자식 선택자 : >
+- 인접 선택자 : +
+- 형제 선택자 : ~
+- 그룹 선택자 : ,
+- 속성 선택자 : [속성]
+- 가상 클래스 선택자 : :link , :hover , :visited , :active , :focus
+- 가상 요소 선택자 : :first-child , last-child , nth-child(n) , :befor , :after
+- 종속 선택자 : 태그.클래스(class)명 , 태그#아이디(id)명
+
+선택자 우선 순위
+외부 선택자(type 선택자 < Class 선택자 < ID 선택자 < 속성 선택자) < 내부 선택자(type 선택자 < Class 선택자 < ID 선택자 < 속성 선택자) < 인라인 선택자 < !important
+
+
+
+
