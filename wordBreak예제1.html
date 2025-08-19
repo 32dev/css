@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word-break 예제1.html</title>
+    <style>
+        p {
+            width: 100px;
+            border: 1px solid black;
+            color: rgb(109, 105, 105);
+            font-size: xx-small;
+        }
+
+        .wordBreak1 {
+            /* 기본값 */
+            word-break: normal;
+        }
+
+        .wordBreak2 {
+            word-break: break-all;
+        }
+
+        .wordBreak3 {
+            word-break: keep-all;
+        }
+
+        .wordWrapBreak {
+            word-wrap: break-word;
+            word-break: keep-all;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="wordBreak1">
+        AAAA BBBB CCCC DDDD EEEE FFFF GGGGGGGGGGGGGGGGGGGG <br>
+        긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다.
+    </p>
+    <p class="wordBreak2">
+
+        AAAA BBBB CCCC DDDD EEEE FFFF GGGGGGGGGGGGGGGGGGGG <br>
+        긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다.
+    </p>
+    <p class="wordBreak3">
+
+        AAAA BBBB CCCC DDDD EEEE FFFF GGGGGGGGGGGGGGGGGGGG <br>
+        긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다허용합니다허용합니다
+    </p>
+    <p class="wordWrapBreak">
+
+        AAAA BBBB CCCC DDDD EEEE FFFF GGGGGGGGGGGGGGGGGGGG <br>
+        긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다허용합니다허용합니다
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>word-wrap예제1.html</title>
+        <style type="text/css">
+            p { 
+                width: 100px;
+                text-align: left;
+                border: 1px solid #000;
+            }
+            #wordWrap1 { word-wrap : normal;}
+            #wordWrap2 { word-wrap : break-word;}
+        </style>
+    </head>
+    <body>
+        <p id="wordWrap1">
+           Allowlong wordstobeabletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+        <p id="wordWrap2">
+           Allowlong wordstobeabletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+    </body>
+</html>
