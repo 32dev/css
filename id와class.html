@@ -1,15 +1,48 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
     <head>
         <meta charset="UTF-8" />
         <title>id와class.html</title>
+        <style type="text/css">
+            th,td { 
+                    border: 1px solid black;
+            }
+            .영업부 {
+                    background: yellow;
+            }
+            .총무부 {
+                    background: red;
+            }
+            #일번 {
+                color: darkgray;
+            }
+            #이번 {
+                color: darkgreen;
+            }
+            #삼번 {
+                color: darkred;
+            }
+            #사번 {
+                color: darkorange;
+            }
+        </style>
     </head>
     <body>
-        <h1>제목</h1>
-        <table border="1">
+        <table>
             <tr>
-                <td>부서</td>
-                <td>사번</td>
+                <th>부서</th><th>사번</th><th>이름</th>
+            </tr>
+            <tr>
+                <td class="영업부">영업부</td><td class="영업부" id="일번">1번</td><td>홍길동</td>
+            </tr>
+            <tr>
+                <td class="총무부">총무부</td><td class="총무부" id="이번">2번</td><td>홍길순</td>
+            </tr>
+            <tr>
+                <td class="영업부">영업부</td><td class="영업부" id="삼번">3번</td><td>홍길순</td>
+            </tr>
+            <tr>
+                <td class="총무부">총무부</td><td class="총무부" id="사번">4번</td><td>홍길동</td>
             </tr>
         </table>
     </body>

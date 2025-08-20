@@ -1,0 +1,7 @@
+색상(color) 지정 방법
+ color : 색상명 ;
+ color : #16진수값(RedGreenBlue) ;
+ color : rgb ( 10진수값[Red,Green,Blue] ) ;
+ color : rgba ( 10진수값[Red,Green,Blue,투명도] ) ;
+ color : hsl ( 색상 , 채도 , 명도 ) ;  
+ color : hsla ( 색상 , 채도 , 명도 , 투명도 ) ;  

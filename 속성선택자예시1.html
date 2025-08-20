@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>속성선택자예시1.html</title>
-    <style type="text/css">
+    <head>
+        <meta charset="UTF-8" />
+        <title>속성선택자예시1.html</title>
+        <style type="text/css">
         /* class 이름이 "총무부" 선택 : 총무부 */
-        /*    p[class="총무부"] { color : red; } */
-
+        /* p[class="총무부"] { color : red; } */
+            
         /* class 이름 중에 "총무부" 선택 : 총무부, 영업부 총무부 */
-           p[class~="총무부"] { color : red; }
-
-        /* class 이름 중에 "총무부" 또는 "총무부-" 선택 : 총무부, 총무부-일팀, 총무부-이팀   */
+        /*    p[class~="총무부"] { color : red; } */
+        
+        /* class 이름 중에 "총무부" 또는 "총무부-" 선택 : 총무부, 총무부-일팀, 총무부-이팀   */ 
         /*    p[class|="총무부"] { color : red; } */
-
-        /* class 이름 중에 "총무부" 로 시작된 class 선택 : 총무부, 총무부-일팀, 총무부-이팀, 총무부영업   */
+            
+        /* class 이름 중에 "총무부" 로 시작된 class 선택 : 총무부, 총무부-일팀, 총무부-이팀, 총무부영업   */ 
         /*    p[class^="총무부"] { color : red; } */
-
+            
         /* class 이름 중에 "총무부" 로 끝난 class 선택 : 총무부, 영업부총무부    */
         /*    p[class$="총무부"] { color : red; } */
-
+            
         /* class 이름 중에 "총무부"를 포함한 class 선택 : 총무부, 총무부-일팀, 총무부-이팀, 영업부 총무부, 영업부총무부 */
-        /*    p[class*="총무부"] { color : red; } */
-    </style>
-</head>
-
-<body>
-    <p class="총무부">총무부</p>
-    <p class="총무부-일팀">총무부 팀1</p>
-    <p class="총무부-이팀">총무부 팀2</p>
-    <p class="영업부">영업부</p>
-    <p class="영업부 일팀">영업부 팀1</p>
-    <p class="영업부 이팀">영업부 팀2</p>
-    <p class="영업부 총무부">영업부 총무부</p>
-    <p class="영업부총무부">영업부총무부</p>
-    <p class="총무부영업">총무부영업</p>
-    <p class="영업 총무부">영업 총무부</p>
-</body>
-
+        /*    p[class*="총무부"] { color : red; }  */
+        </style>
+    </head>
+    <body>
+        <p class="총무부">총무부</p>
+        <p class="총무부-일팀">총무부-일팀</p>
+        <p class="총무부-이팀">총무부-이팀</p>
+        <p class="영업부">영업부</p>
+        <p class="영업부 일팀">영업부 일팀</p>
+        <p class="영업부 이팀">영업부 이팀</p>
+        <p class="영업부 총무부">영업부 총무부</p>
+        <p class="영업부총무부">영업부총무부</p>
+        <p class="총무부영업">총무부영업</p>
+        <p class="영업 총무">영업 총무</p>
+    </body>
 </html>

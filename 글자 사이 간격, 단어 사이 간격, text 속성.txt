@@ -1,0 +1,33 @@
+글자 사이 간격, 단어 사이 간격, text 속성
+ letter-spacing : 글자사이간격 값 ; 
+ word-spacing : 단어사이간격 값 ; 
+ text-decoration : none(선없음) , underline(밑줄) , overline(윗줄) , line-through(중앙취소선)  ;
+ text-transform : uppercase(대문자변환) , lowercase(소문자변환) , capitalize(첫글자대문자변환) ;
+ text-shadow : x좌표  y좌표  퍼지는정도  색상 ,  ...   ;
+ text-align : left(왼쪽정렬) , center(가운데정렬) , right(오른쪽정렬) , justify(양쪽정렬) ;
+ vertical-align : 이미지 또는 폼 기준 글자 top(위쪽정렬) , middle(중앙정렬) , bottom(아래정렬) ;
+ text-indent : 들여쓰기 또는 내어쓰기할 값 ;
+ word-wrap : normal(보통) , break-word(영어 단어 단위로 줄바꿈) ;    // 띄어쓰기 없이 길게 입력한 글 가로 너비(width)에 넘어가는(overflow) 글 자동 개행, 영문 띄어쓰기 할 경우 단어 단위로 줄 바꿈(주의:한글은 단어 단위 줄바꿈 안됨)
+
+ word-break : normal(보통) , break-all(글자가 넘치면 줄바꿈) , keep-all(한글 단어 단위 줄바꿈)
+* 영어와 한글 단어 단위 자동 줄 바꿈할 경우-  선택자 { word-wrap : break-word; word-break : keep-all; }
+ white-space : normal(보통) , nowrap(줄 바꿈 없이 연속 공백과 줄바꿈은 하나의 공백 처리) ,
+                       pre(입력 내용 그대로 표시, 내용이 길면 자동줄바꿈 안됨) , 
+                       pre-wrap(입력 내용 그대로 표시, 내용이 길면 자동줄바꿈 됨),
+                       pre-line(연속 공백 하나의 공백으로 처리, 내용이 길면 자동줄바꿈 됨)
+
+ text-overflow : normal(보통), ellipsis(내용이 길면 말줄임 기호[...] 표시)
+ display: inline(인라인 요소로 변경), block(블록 요소로 변경) , inline-block (인라인 블록 요소로 변경), 
+              table-cell(테이블 td 요소로 변경) , none(표시하지 않음, 자리차지 하지 않음)
+
+ visibility: visible(요소를 표시 함) , hidden (요소를 표시하지 않으나 자리차지 함)
+
+ overflow: visible(내용이 넘치는 부분 표시) , hidden(내용이 넘치는 부분은 숨김), 
+                auto(내용이 넘치는 경우 스크롤바 표시) , scroll(내용이 넘치지 않아도 스크롤바 표시) 
+                
+ opacity: 투명도(지정 범위 [ 0.0 ~ 1.0 ])                        
+ 
+
+
+
+

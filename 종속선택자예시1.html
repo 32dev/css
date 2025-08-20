@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>종속선택자예시1.html</title>
+        <style type="text/css">
+            p#para1 { color : red;}
+            p#para1 { color : green;}
+            * { color: aqua ;}
+            p#para2 { color : blue;}
+            p.para3 { color : green ;}
+            p.para3 { color : darkgray;}
+            p { color: orange;}
+            
+        </style>
+    </head>
+    <body>
+        <p>문단1</p>
+        <p id="para1">문단1</p>
+        <p id="para2">문단2</p>
+        <p class="para3">문단3</p>
+        <p class="para3">문단3</p>
+    </body>
+</html>

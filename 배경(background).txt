@@ -1,0 +1,9 @@
+배경(background)
+background-color: 배경색 ;
+background-image: url(배경 채울 이미지 경로/파일명.확장자) ;
+background-repeat: repeat(배경이미지 반복) , no-repeat(반복없이 한번만) , 
+                                repeat-x(x축 반복) , repeat-y(y축 반복) , 
+                                space(이미지 반복해서 잘리지 않도록 이미지 사이 여백을 조정) ,
+                                round(이미지 반복해서 잘리지 않도록 이미지 크기를 조정) ;
+
+background-position: x축 (px, % , left, center, right) 값, y축 (px, %, top, center, bottom) 값

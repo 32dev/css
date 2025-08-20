@@ -1,0 +1,24 @@
+글자(font) 스타일 속성 및 값 정리
+
+ font-weight : bold(굵게) , normal(보통) ;
+ font-style : italic(기울게) , normal(보통) ;
+ font-variant : small-caps(작은-대문자) , normal(보통) ;
+ font-size : 글자크기 ;
+ * 크기 단위 : px(픽셀), pt(포인트) , em(배수) , % (비율), vw (뷰 너비), vh(뷰 높이) ;
+ line-height : 줄간격 ; 
+ font-family : 글자모양1, 글자모양2, ... ;
+
+* 글자(font) 스타일 한줄에 지정할때 font: 라고 속성지정 후 순서에 맞게 값 지정
+ font : font-weight값   font-style값   font-variant값   font-size값/line-height값   font-family값 ; 
+
+* 웹 폰트(WOFF : Web Open Format Font) 가져오는 방법
+<link  href="웹 폰트 사이트 주소" rel="stylesheet">    
+
+<style type="text/css">
+   @import   url("웹 폰트 사이트 주소");
+</style>
+
+<style type="text/css">
+   @font-face { font-family : "font명" ;  src : url("웹폰트 경로/파일명.woff")  format("woff"); }
+</style> 
+

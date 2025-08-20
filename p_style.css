@@ -1,7 +1,3 @@
-p {
-    color: white;
-}
-
-body {
-    background-color: black;
-}
+body {background-color:coral;}
+p {color:blue;}
+strong {color:darkgray;}

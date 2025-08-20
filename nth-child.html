@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>배경이미지의 위치</title>
+    <style type="text/css">
+        ul{
+            border:1px solid black;
+        }
+        li:nth-child(3) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>목록 1</li> <!-- n:1 -->
+        <li>목록 2</li> <!-- n:2 -->
+        <li>목록 3</li> <!-- n:3 -->
+    </ul>
+    <ul>
+        <h3>제목</h3>   <!-- n:1 -->
+        <li>목록 1</li> <!-- n:3 -->
+        <li>목록 2</li> <!-- n:4 -->
+        <li>목록 3</li> <!-- n:4 -->
+    </ul>
+    <ul>
+        <h3>제목</h3>   <!-- n:1 -->
+        <p>단락</p>     <!-- n:2 -->
+        <li>목록 1</li> <!-- n:3 -->
+        <li>목록 2</li> <!-- n:4 -->
+        <li>목록 3</li> <!-- n:4 -->
+    </ul>
+</body>
+
+</html>

@@ -9,7 +9,7 @@ CSS(Cascading Style Sheet)
 </style>
 
 *인라인 스타일
-<태그 type="스타일 속성 : 속성 값; ...">내용</태그>
+<태그 style="스타일 속성 : 속성 값; ...">내용</태그>
 
 선택자
 - 전체 선택자 : *
@@ -23,7 +23,7 @@ CSS(Cascading Style Sheet)
 - 그룹 선택자 : ,
 - 속성 선택자 : [속성]
 - 가상 클래스 선택자 : :link , :hover , :visited , :active , :focus
-- 가상 요소 선택자 : :first-child , last-child , nth-child(n) , :befor , :after
+- 가상 요소 선택자 : :first-child , :last-child , :nth-child(n) , :befor , :after
 - 종속 선택자 : 태그.클래스(class)명 , 태그#아이디(id)명
 
 선택자 우선 순위

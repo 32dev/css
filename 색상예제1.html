@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>글꼴예제1.html</title>
-    <style>
-        a:hover {
-            font: italic normal bold 20px/1.5 'consolas';
-            color: orange;
-            color: rgb(255, 128, 0);
-        }
-
-        li:hover {
-            background-color: black;
-            font-size: 20px;
-            color: #fff;
-            font-variant: small-caps;
-            color: orange;
-        }
-    </style>
-</head>
-
-<body>
-    <a href="https://www.naver.com" target="_blank">
-        네이버
-    </a>
-    <a href="https://www.daum.net" target="_blank">
-        다음
-    </a>
-    <ul>
-        <li id="html">html</li>
-        <li id="js">js</li>
-        <li id="css">css</li>
-        <li id="jquery">jquery</li>
-    </ul>
-</body>
-
+    <head>
+        <meta charset="UTF-8" />
+        <title>글꼴예제1.html</title>
+        <style>
+            /*
+            a:hover {
+                font-weight: bold;  // 굵게
+                font-style: italic; // 이태릭
+                font-variant : small-caps; // 작은-대문자
+                font-size: 20px;  // 글자크기
+                line-height: 1.5; // 줄 높이
+                font-family: '궁서'; // 글자모양
+            }
+            */
+            
+            a:hover { 
+                    font: bold italic 20px/1.5 '궁서';
+                    color : rgb(255,128,0);
+                    }
+            li { width: 150px;
+                }
+            li:hover {
+                        font : bold italic small-caps 20px/1.5 '궁서' ;
+                        background-color: #000;
+                        color: rgb(255,128,0);
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://www.naver.com" target="_blank">
+            네이버
+        </a>
+        <a href="https://www.daum.net" target="_blank">
+            다음
+        </a>
+        <ul>
+            <li id="html">HTML</li>
+            <li id="css">CSS</li>
+            <li id="javascript">Javascript</li>
+            <li id="jquery">JQuery</li>
+        </ul>
+    </body>
 </html>
+
+
+
+

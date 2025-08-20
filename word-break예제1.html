@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>word-break예제1.html</title>
+        <style type="text/css">
+            p { 
+                width: 100px;
+                text-align: left;
+                border: 1px solid #000;
+            }
+            #wordBreak1 { word-break : normal;}
+            #wordBreak2 { word-break : break-all;}
+            #wordBreak3 { word-break : keep-all;} /* 한글 단어 단위 자동개행 */
+            #wordWrap3 { word-wrap : break-word;} /* 한글 단어 단위 자동개행되지 않음 */
+            #wordWrapBreak { 
+                word-wrap:break-word;
+                word-break: keep-all;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="wordBreak1">
+           Allowlong wordstobeabletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+        <p id="wordBreak2">
+           Allowlong wordstobeabletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+        <p id="wordBreak3">
+           Allowlong wordstobeabletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+        <p id="wordWrap3">
+           Allowlong wordstobeabletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+        <p id="wordWrapBreak">
+           Allowlong word stobe abletobreakandwrapontothenextline.<br>
+           [ 긴 단어가 다음 줄로 나누어져 나올 수 있도록 허용합니다. ] 
+        </p>
+    </body>
+</html>

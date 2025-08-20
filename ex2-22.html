@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="ko"> 
 <head>
-    <meta charset="utf-8">
-    <title>web font</title>
-    <style type="text/css">
-        @font-face {
-            font-family: 'NanumGothic-Regular';
-            src: url('font/NanumGothic-Regular.ttf') format('truetype');
-        }
-
-        .nanum {
-            font-family: 'NanumGothic-Regular';
-        }
-    </style>
-</head>
-
+<meta charset="utf-8">
+<title>web font</title> 
+<style type="text/css"> 
+    @font-face { font-family:'NG'; src:url('font/NanumGothic.woff') format('woff');}
+    @font-face { font-family:'NGB'; src:url('font/NanumGothicBold.woff') format('woff');}
+    @font-face { font-family:'NGEB'; src:url('font/NanumGothicExtraBold.woff') format('woff');}
+    p {font-size: 2em;}
+    .gt {font-family :'NGB';}
+    @font-face { font-family:'NanumMyeongjo'; src:url('font/NanumMyeongjo.woff') format('woff');}
+    .nanum { font-family : 'NanumMyeongjo';}
+</style> 
+</head> 
 <body>
     <p>오늘의 날씨를 말씀드리겠습니다.</p>
+    <p class="gt">오늘의 날씨를 말씀드리겠습니다.</p>
     <p class="nanum">오늘의 날씨를 말씀드리겠습니다.</p>
 </body>
-
 </html>
