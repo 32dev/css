@@ -7,3 +7,14 @@ background-repeat: repeat(배경이미지 반복) , no-repeat(반복없이 한�
                                 round(이미지 반복해서 잘리지 않도록 이미지 크기를 조정) ;
 
 background-position: x축 (px, % , left, center, right) 값, y축 (px, %, top, center, bottom) 값
+
+
+background-attachment : scroll ( 화면 이동하면 배경 이미지 따라서 움직임)
+                        fixed  ( 화면 이동하면 배경이미지 고정 움직임)
+
+
+background-size : 배경이미지크기
+
+background-origin: padding-box ( 배경이미지 시작 위치를 안쪽 여백부터 이미지 나옴);
+background-origin: border-box  ( 배경이미지 시작 위치를  테두리 선부터 이미지 나옴);
+background-origin: content-box ( 배경이미지 시작 위치를  내용부터 이미지 나옴);
