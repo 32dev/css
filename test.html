@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html lang="ko"> 
+<html lang="ko">
+
 <head>
-<meta charset="utf-8">
-<title>배경이미지의 원점</title> 
-<style type="text/css">
-    div { 
-        width:550px; padding:25px; margin-bottom:20px;
-        border:15px double rgba(0,0,0,0.6); 
-        background:url(img/bg_origin.png);
-        background-repeat:no-repeat;
-        background-size: 70px ;
-    }
-    .ori1 { background-origin: border-box; }
-    .ori2 { background-origin: padding-box; }
-    .ori3 { background-origin: content-box; } 
-</style>
-</head> 
+    <meta charset="utf-8">
+    <title>둥근 테두리</title>
+    <style type="text/css">
+        .radius {
+            display: inline-block;
+            padding: 40px 0;
+            text-align: center;
+            background-color: #07d;
+        }
+
+        .radius1 {
+            width: 230px;
+            margin: 10px;
+            border-radius: 15px / 70px;
+        }
+
+        .radius2 {
+            width: 490px;
+            border-radius: 15px 10px 15px 0px / 70px 15px 70px 15px;
+        }
+
+        .p1 {
+            width: 30px;
+            height: 140px;
+            background-color: red;
+            border: 1px solid #000;
+            border-radius: 15px / 70px;
+        }
+
+        .p2 {
+            width: 140px;
+            height: 30px;
+            background-color: red;
+            border: 1px solid #000;
+            border-radius: 70px / 15px;
+        }
+    </style>
+</head>
+
 <body>
-    <div class="ori1">It's impossible not only starting good but also keeping it firm!!</div>
-    <div class="ori2">It's impossible not only starting good but also keeping it firm!!</div>
-    <div class="ori3">It's impossible not only starting good but also keeping it firm!!</div>
-</body> 
+    <span class="radius radius1">border-radius: 15px / 70px;</span>
+    <span class="radius radius2">border-radius: 15px 70px 15px 70px / 70px 15px 70px 15px;</span>
+
+    <p class="p1">
+        p1
+    </p>
+    <p class="p2">
+        p2
+    </p>
+</body>
+
 </html>
